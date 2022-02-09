@@ -7,7 +7,7 @@
  * DONE: Complete the showYouWon, showNumberAbove, showNumberBelow
  * DONE: Use the showYouWon... functions within "displayResult to display the correct dialog"
  * done: Save the guess history in a variable called guess
- * TODO: Display the guess history using displayHistory() function
+ * done: Display the guess history using displayHistory() function
  * TODO: Use the initGame() function to restart the game
  */
 
@@ -60,6 +60,15 @@ function displayResult(numberGuess){
  */
 function initGame(){
   // *CODE GOES BELOW HERE *
+  // Reset the correctNumber
+  // Reset the result display 
+  // Reset the guesses array
+  // Reset the guess history display
+  correctNumber = getRandomNumber();
+  document.getElementById("result").innerHTML = "";
+  guesses = [];
+  displayHistory();
+
 }
 
 /**
