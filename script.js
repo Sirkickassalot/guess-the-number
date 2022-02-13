@@ -68,7 +68,6 @@ function initGame(){
   document.getElementById("result").innerHTML = "";
   guesses = [];
   displayHistory();
-
 }
 
 /**
